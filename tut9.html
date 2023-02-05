@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <!-- HTML Forms :
+An HTML form is used to collect user input. The user input is most often sent to a server for processing. -->
+
+<!-- Form Element :
+The <form> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc. -->
+    <form action="action.php">
+        <!-- Input Elements  -->
+        <!-- The HTML <input> element is the most used form element.
+An <input> element can be displayed in many ways, depending on the type attribute. -->
+
+        <label for="username">User Name:</label><br>
+       <input id="username" type="text"><br> 
+        <label for="email">Email</label><br>
+        <input type="email" id="email"><br>
+        <!-- Radio Buttons  -->
+        <label for="">Choose your fav. Language :</label><br>
+        <input id="radio1" name="radio" type="radio">
+        <label for="radio1">HTML</label><br>
+        <input  id="radio2" name="radio" type="radio">
+        <label for="radio1">CSS</label><br>
+        <input type="radio" name="radio" id="radio3">
+        <label for="radio1">JavaScript</label><br>
+        <!-- checkbox -->
+        <label for="">Select your fav. sports</label><br>
+
+        <input id="check1" type="checkbox">
+        <label for="check1">Bedminten</label> <br>
+        <input id="check2" type="checkbox">
+        <label for="check2">FootBall</label> <br>
+        <input id="check3" type="checkbox">
+        <label for="check3">BasketBall</label> <br>
+        <input id="check4" type="checkbox">
+        <label for="check4">Cricket</label> <br>
+
+        <!-- The <input type="submit"> defines a button for submitting the form data to a form-handler. -->
+       <input type="submit"><br>
+       <input type="button" value="Button">
+    </form>
+</body>
+</html>
